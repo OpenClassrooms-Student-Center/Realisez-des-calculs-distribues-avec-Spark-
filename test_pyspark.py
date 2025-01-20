@@ -9,3 +9,6 @@ df = spark.createDataFrame(data, ["Name", "Age"])
 
 # Afficher le DataFrame
 df.show()
+
+# Fermer la session Spark  
+spark.stop()
